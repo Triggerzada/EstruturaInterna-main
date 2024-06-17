@@ -1,0 +1,14 @@
+.top-nav {
+    width: 95%;
+    background:transparent;
+    padding-bottom: 9px;
+    margin-top: -15px;
+}
+
+#title_nav {
+    width: 100%;
+    text-wrap: nowrap;
+    font-size: 15px;
+    color:white;
+    margin-top: 17px ;
+}

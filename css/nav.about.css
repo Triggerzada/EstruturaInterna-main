@@ -1,0 +1,14 @@
+.top-nav {
+    width: 95%;
+    background: #262626 ;
+    padding-bottom: 9px;
+    margin-top: -15px;
+}
+
+#title_nav h1 {
+    width: 100%;
+    text-wrap: nowrap;
+    font-size: 15px;
+    color:white;
+    padding-bottom: 30px;
+}

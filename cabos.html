@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>| Estrutura interna de rede de computadores</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    type="text/css">
+  <link rel="shortcut icon" href="" type="image" />
+  <link href="css/nav.index.css" rel="stylesheet" />
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid top-nav">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo-top page-scroll" href="index.html">
+            <h1 id="title_nav">Estrutura interna de um computador</h1>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden nav-buttons">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="componentes.html">Componentes</a>
+            </li>
+            <li>
+                <a class="page-scroll" href="cabos.html">Cabelagem </a>
+              </li>
+            <li>
+              <a class="page-scroll" href="tema.html">Tema</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="about.html">Sobre </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="product_section layout_padding">
+      <div class="container">
+        <div class="product_text">todos os cabos</div>
+        <p class="long_text">.
+        </p>
+        <div class="product_section_2">
+          <div class="row alignzada">
+            <div class="col-md-6 testzada">
+              <div class="imagemcomp"><img src="img/componentes/motherboard.png" width="180px"></div>
+              <h1 class="nome_componente">.</h1>
+              <p class="long_text">.</p>
+            </div>
+            <div class="col-md-6 testzada">
+              <img src="img/componentes/processador.png" width="180px" justify-content="center">
+              <h1 class="nome_componente">.</h1>
+              <p class="long_text">.</p>
+            </div>
+        
+          </div>
+          <div class="see_main">
+            <div class="see_bt"><a href="#about" onclick="toggleEquipamentos()">Ver Mais</a></div>
+          </div>
+          <div class="col-md-6 testzada">
+            <div class="imagemcomp"><img src="img/componentes/fonte.png" width="180px"></div>
+            <h1 class="nome_componente">.</h1>
+            <p class="long_text">.</p>
+          </div>
+          <div class="col-md-6 testzada">
+            <div class="imagemcomp"><img src="img/componentes/cooler.png" width="180px"></div>
+            <h1 class="nome_componente">.</h1>
+            <p class="long_text">.</p>
+          </div>
+          <div class="col-md-6 testzada">
+            <div class="imagemcomp"><img src="img/componentes/ram.png" width="180px"></div>
+            <h1 class="nome_componente">.</h1>
+            <p class="long_text">.</p>
+          </div>
+          <div class="col-md-6 testzada">
+            <div class="imagemcomp"><img src="img/componentes/placagrafica.png" width="180px"></div>
+            <h1 class="nome_componente">. </h1>
+            <p class="long_text">.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    var botao = document.querySelector('.see_main');
+    let button_seeless = document.querySelector('.see_main2')
+  function toggleEquipamentos() {
+    var equipamento1 = document.getElementById('equipamento1');
+    equipamento1.style.display = 'block';
+    botao.style.display = "none"
+  }
+  function hide_elements() {
+    equipamento1.style.display = 'none';
+    botao.style.display = "block";
+  }
+</script>
+        <div class="see_main2" style="margin-bottom: 35px;">
+          <div class="see_bt"><a href="#about" onclick="hide_elements()">Ver Menos</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
